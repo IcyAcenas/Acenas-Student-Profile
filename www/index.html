@@ -1,72 +1,92 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Student Profile</title>
+    <title>Icy A. Acenas - Student Profile</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <header>
-        <img src="Acenas_PicJPG.JPG" alt="Profile Picture" class="profile-pic">
-        <h1>Icy A. Acenas</h1>
-        <p class="subtitle">About Myself</p>
+        <div class="header-container">
+            <img src="Acenas_PicJPG.JPG" alt="Profile Picture of Icy A. Acenas" class="profile-pic">
+            <div class="header-text">
+                <h1>Icy A. Acenas</h1>
+                <p class="subtitle">About Myself</p>
+            </div>
+        </div>
 
-        <nav>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
+        <nav aria-label="Main Navigation">
+            <a href="#about" class="nav-link">About</a>
+            <a href="#skills" class="nav-link">Skills</a>
         </nav>
     </header>
 
     <main>
+        <!-- About Section -->
         <section id="about">
             <h2>About Me</h2>
-                <p class="about-text">
-                    Hello! I'm a 20-year-old 3rd-year Computer Science student at Xavier University - Ateneo de Cagayan, currently diving deep into mobile development through ITCC 41. My curiosity for software started when I was a kid, but the spark truly ignited in 7th grade when I built my first basic HTML page. That moment set me on a dedicated path toward becoming a software engineer. Building scalable applications, solving complex algorithmic problems, and translating real-world problems into clean, efficient code.
-                </p>
-                <p class="about-text">
-                    Beyond my studies, I am an active athlete involved in cheerleading and ballet. In my free time, I love playing pickleball with my family and friends. Performing arts and sports give me a creative outlet, keep me grounded, and help me maintain a well-rounded balance between my social life and academic goals.
-                </p >
-                <p class="about-text">
-                    My educational background is centered around computer software and application building. My goal is to master modern software frameworks and become an effective developer creating impactful applications.
-                </p>
+            <p class="about-text">
+                Hello! I'm a 20-year-old 3rd-year Computer Science student at Xavier University - Ateneo de Cagayan, currently diving deep into mobile development through ITCC 41. My curiosity for software started when I was a kid, but the spark truly ignited in 7th grade when I built my first basic HTML page. That moment set me on a dedicated path toward becoming a software engineer—building scalable applications, solving complex algorithmic problems, and translating real-world problems into clean, efficient code.
+            </p>
+            <p class="about-text">
+                Beyond my studies, I am an active athlete involved in cheerleading and ballet. In my free time, I love playing pickleball with my family and friends. Performing arts and sports give me a creative outlet, keep me grounded, and help me maintain a well-rounded balance between my social life and academic goals.
+            </p>
+
+            <div class="about-grid">
+                <div class="about-card">
+                    <h3>Interests</h3>
+                    <p>Cheerleading, Ballet, Pickleball, Performing Arts, and Software Engineering.</p>
+                </div>
+                <div class="about-card">
+                    <h3>Educational Background</h3>
+                    <p>3rd-year Computer Science Student at Xavier University - Ateneo de Cagayan, focusing on mobile application development and modern frameworks.</p>
+                </div>
+                <div class="about-card">
+                    <h3>Goals & Aspirations</h3>
+                    <p>To master modern software frameworks and become an effective developer creating impactful, scalable applications.</p>
+                </div>
+            </div>
         </section>
 
-    <section id="skills">
-            <h2>Skills Section</h2>
-                <div class="skills-container">
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills-container">
 
-                    <div class="skill-card">
+                <div class="skill-card">
                     <div class="skill-name">1. Mobile & Web Development</div>
                     <div class="skill-desc">Proficient in building responsive web pages and interactive user interfaces using modern web standards.</div>
-                    </div>
+                </div>
 
-                    <div class="skill-card">
+                <div class="skill-card">
                     <div class="skill-name">2. Python Development</div>
                     <div class="skill-desc">Experienced in using Python for core programming, problem-solving, and logic building.</div>
-                    </div>
+                </div>
 
-                    <div class="skill-card">
+                <div class="skill-card">
                     <div class="skill-name">3. Algorithms & Complexity</div>
                     <div class="skill-desc">Skilled in evaluating time/space complexity and applying dynamic programming techniques to solve complex computational problems efficiently.</div>
-                    </div>
+                </div>
 
-                    <div class="skill-card">
+                <div class="skill-card">
                     <div class="skill-name">4. Low-Level Systems & Computer Architecture</div>
                     <div class="skill-desc">Understands low-level CPU execution, memory manipulation, and Assembly language using x86 emulators like DOSBox.</div>
-                    </div>
+                </div>
 
-                    <div class="skill-card">
+                <div class="skill-card">
                     <div class="skill-name">5. Applied Cryptography & System Architecture</div>
                     <div class="skill-desc">Knowledgeable in cybersecurity concepts, encryption fundamentals, and high-level software system infrastructure.</div>
-                    </div>
+                </div>
 
-                    <div class="skill-card">
+                <div class="skill-card">
                     <div class="skill-name">6. UI/UX Design</div>
                     <div class="skill-desc">Capable of designing user-centric interfaces and wireframes to ensure smooth, intuitive application navigation.</div>
-                    </div>
-
                 </div>
+
+            </div>
         </section>
     </main>
 

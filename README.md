@@ -253,6 +253,7 @@ Tablet:
 Desktop:
 <img width="1227" height="995" alt="image" src="https://github.com/user-attachments/assets/c7105c86-c513-4256-a7e3-d28c47d78eb2" />
 <img width="1213" height="983" alt="image" src="https://github.com/user-attachments/assets/38152446-dc90-45aa-b363-fc6c19877651" />
-![Uploading image.png…]()
+<img width="1206" height="959" alt="image" src="https://github.com/user-attachments/assets/cb734cf8-5cc0-4d48-8f3d-03b5cd8b9620" />
+
 
 
